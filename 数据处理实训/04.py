@@ -1,0 +1,4 @@
+import xlrd
+xlsx = xlrd.open_workbook('1.xlsx')
+table = xlsx.sheet_by_index(0)
+print(table.cell_value(0,0))
