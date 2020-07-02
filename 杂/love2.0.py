@@ -19,7 +19,7 @@ def sendMsg(msg):
 
 if __name__ == '__main__':
     time.sleep(3)
-    mType = "love"  # love 一句情话 / wu 你好污啊 / du 有毒吧你
+    mType = "message"  # love 一句情话 / wu 你好污啊 / du 有毒吧你 / message 美文摘录
     while True:
         url = f"http://toodo.fun/api/api.php?type={mType}&skey=free"  # 一句情话
         msm = requests.get(url).text
