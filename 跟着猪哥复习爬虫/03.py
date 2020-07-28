@@ -79,7 +79,7 @@ def create_word_cloud():
     plt.axis("off")
     plt.figure()
 
-    plt.savefig("ciyun.jpg" )
+    plt.savefig("ciyun.jpg" ,dpi=100, format='jpg')
     plt.show()
 
 
