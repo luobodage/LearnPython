@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="52a30ef1e3f34c15b185bdac6c9a3ee7" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_52a30ef1e3f34c15b185bdac6c9a3ee7 = echarts.init(
+            document.getElementById('52a30ef1e3f34c15b185bdac6c9a3ee7'), 'white', {renderer: 'canvas'});
+        var option_52a30ef1e3f34c15b185bdac6c9a3ee7 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "blue",
+        "green"
+    ],
+    "series": [
+        {
+            "type": "pie",
+            "clockwise": true,
+            "data": [
+                {
+                    "name": "\u7537",
+                    "value": 56
+                },
+                {
+                    "name": "\u5973",
+                    "value": 39
+                }
+            ],
+            "radius": [
+                "0%",
+                "75%"
+            ],
+            "center": [
+                "50%",
+                "50%"
+            ],
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{b}: {c}"
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u7537",
+                "\u5973"
+            ],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "\u6027\u522b\u5206\u6790",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_52a30ef1e3f34c15b185bdac6c9a3ee7.setOption(option_52a30ef1e3f34c15b185bdac6c9a3ee7);
+    </script>
+</body>
+</html>
