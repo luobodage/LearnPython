@@ -5,7 +5,7 @@ import jqdatasdk as jq
 
 
 #登录jqdata
-jq.auth('username','password')
+jq.auth('18846936702','Zxc4525577')
 
 #获取数据
 data = jq.get_price("601766.XSHG",start_date="2020-07-01",end_date="2020-08-08",fields=['open','close','high','low'])
