@@ -1,7 +1,7 @@
 import lxml.etree as le
 
 def main():
-    with open('cnjc.html','rb') as f:
+    with open('cnjc.html', 'rb') as f:
         content = f.read()
 
     contentqx = le.HTML(content)
