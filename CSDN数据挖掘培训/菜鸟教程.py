@@ -13,7 +13,7 @@ def spider():
     # html转xml
     contentx = le.HTML(content)
     hrefs = contentx.xpath('//*[@id="leftcolumn"]/a/@href')
-
+    print(hrefs)
     for index, hrefs in enumerate(hrefs):
         url = 'https://www.runoob.com/' + hrefs
         detail_content = requests.get(
