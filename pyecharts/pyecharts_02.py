@@ -1,5 +1,5 @@
 # 全国城市地图示例
-from pyecharts import Geo
+from pyecharts.charts import Geo
 
 data = [
     ("海门", 9),("鄂尔多斯", 12),("招远", 12),("舟山", 12),("哈尔滨", 14),("齐齐哈尔", 16),
