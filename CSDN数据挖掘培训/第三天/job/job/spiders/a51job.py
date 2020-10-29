@@ -3,7 +3,7 @@ import re
 import json
 import pymongo
 
-c = pymongo.MongoClient().get_database("2020-08-26").get_collection('c2')
+c = pymongo.MongoClient().get_database("2020-10-29").get_collection('c2')
 
 
 class A51jobSpider(scrapy.Spider):
