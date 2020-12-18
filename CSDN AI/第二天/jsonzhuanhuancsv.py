@@ -6,6 +6,7 @@ data = '世界疫情数据.json'
 with open(data, 'r') as f:
     strF = f.read()
     if len(strF) > 0:
+
         datas = json.loads(strF)
     else:
         datas = {}
